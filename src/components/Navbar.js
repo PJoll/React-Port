@@ -6,18 +6,25 @@ import Container  from 'react-bootstrap/Container'
 function Navcomponent() {
   return (
     
-      <Navbar bg="dark" variant="dark">
-        <Container>
+      
+
+
+
+
+
+
+<Navbar>
+
+         <Container className='text-dark bg-grey justify-centre '>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#about">About Me</Nav.Link>
+            <Nav.Link href="#project">Projects</Nav.Link>
+            <Nav.Link href="#footer">Footer</Nav.Link>
           </Nav>
-        </Container>
+        </Container> 
+   
       </Navbar>
-     
-      
            
         );
       }
