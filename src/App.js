@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import background from "./images/Background.jpg"
+
+import Home from "./components/Home"
 import Navbar from "./components/Navbar";
 import About from "./components/About"; 
 import Project from "./components/Project";
@@ -8,22 +9,34 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <Router>
+    <Routes>
       <Navbar/>
-      <main>
-        <div style={{ backgroundImage: `url(${background})`}} >
-    <div className='App container my-10 mx-auto max-w-screen-lg '>
-      <About/>
-      Hello
-      <Project />
-      <Footer />
+      <Route
+      path= "/"
+      element={<Home/>}
+      />
+      <Route 
+      path="/about"
+      element={<About/>}
+        />
+      <Route 
+      path="/project"
+      element={<Project/>}
+        />
+        <Route 
+      path="/footer"
+      element={<Footer/>}
+        />
+      
+     
+     
 
-      </div>
-      </div>
-      </main>
+      </Routes>
+      </Router>
+    
 
-      </div>
-   
+     
   );
 }
 
