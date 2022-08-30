@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer()  {
   return (
-    <div id='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+    <div id='contact' className='text-gray-400 bg-gray-900 body-font flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/ec03594b-259b-462f-a371-4a5355f8de21" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>

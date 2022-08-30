@@ -1,7 +1,7 @@
-
-
-
-
+import Password from "./images/Password.png"
+import MovieDex from  "./images/Moviedex.png"
+import RpgGame from "./images/Rpg-game.png"
+import Espresso from "./images/Espresso-express.png"
 
 
 export const projects= [
@@ -10,7 +10,7 @@ export const projects= [
         subtitle: "HTML",
         description:
           "This exciting app generates a password for the user of at least 8 charactors long including the option of special charactors and uppercase characters.",
-        image: "./react-portfolio/src/images/Password.png",
+        image: Password,
         link: " https://pjoll.github.io/Password-Generator/",
       },
       {
@@ -18,23 +18,23 @@ export const projects= [
         subtitle: "Html/node",
         description:
           "This app using apis enables the user to search any movie and read information and see ratings! It also provides the current streaming services that play the movie.",
-        image: "./",
+        image: MovieDex,
         link: "https://gkal14.github.io/MoviDex/",
       },
       {
-        title: "React Reserve",
+        title: "Rpg Game",
         subtitle: "MERN Stack",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-1.gif",
-        link: "https://reactbootcamp.com",
+          "This project is a forum style site that allowers users to creat and post Rpg stories online?",
+        image: RpgGame,
+        link: "https://rpg-game-lpanz.herokuapp.com/",
       },
-    //   {
-    //     title: "React Reserve",
-    //     subtitle: "MERN Stack",
-    //     description:
-    //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    //     image: "./project-1.gif",
-    //     link: "https://reactbootcamp.com",
-    //   },
+      {
+        title: "Espresso Express",
+        subtitle: "MERN Stack",
+        description:
+          "This site allows you to order coffee beans from a react created app. It use mongoddb and is deployed live with heroku ",
+        image: Espresso,
+        link: "https://espresso-express-deployed.herokuapp.com",
+      },
 ]

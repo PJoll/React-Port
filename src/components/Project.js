@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../Projects";
-import image from "../images/Password.png";
+
 
 
 
@@ -12,12 +12,11 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <div className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Below are a few of the projects i have completed. if you want to see even more of my work please ckeckout my github ....
+            <a href = "https://github.com/PJoll"></a>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
