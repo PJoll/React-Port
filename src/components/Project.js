@@ -1,98 +1,47 @@
-import React from 'react'
-import Password from '../images/Password.png'
-import Esspresso from '../images/Espresso-express.png'
-import Movie from '../images/Moviedex.png'
-import Rpg from '../images/Rpg-game.png'
+import React from "react";
+import { projects } from "../data";
 
-
-
-const Project = () => {
+export default function Projects() {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-          <p className='py-6'>My Projects</p>
+    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-20">
+          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+            Apps I've Built
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
+            fuga dolore.
+          </p>
         </div>
-
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <div style={{ backgroundImage: `url(${Password})`}}className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
- 
-            {/* {Hover effects} */}
-             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-SIT LO VIETNAMESE
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="http://sitlo.com.au/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                </a>
-                {/* <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a> */}
+        <div className="flex flex-wrap -m-4">
+          {projects.map((project) => (
+            <a
+              href={project.link}
+              key={project.image}
+              className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative">
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src={project.image}
+                />
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                    {project.subtitle}
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                    {project.title}
+                  </h1>
+                  <p className="leading-relaxed">{project.description}</p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${Password})`}}className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
- 
-            {/* {Hover effects} */}
-             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-CHU CHU JAPANESE
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://www.chuchuadl.com.au/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                </a>
-                {/* <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-boldt text-lg'>Code</button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${Esspresso})`}}className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
- 
-            {/* {Hover effects} */}
-             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-Rock - Paper - Scissors
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://frygit87.github.io/RockPaperScissors/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                </a>
-                <a href="https://github.com/FryGit87/RockPaperScissors">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${Movie})`}}className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
- 
-            {/* {Hover effects} */}
-             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-Password Generator
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://frygit87.github.io/Vault-Company_Password-Generator/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                </a>
-                
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div style={{ backgroundImage: `url(${Rpg})`}}className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
- 
-           
-          </div>
+            </a>
+          ))}
         </div>
-
       </div>
-    </div>
-  )
+    </section>
+  );
 }
-
-export default Project
