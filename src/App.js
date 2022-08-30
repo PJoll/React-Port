@@ -7,21 +7,20 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 
-function App() {
+export function App() {
   return (
-   <div>
+   <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar/>
       <Home/>
       
       <About/>
        
-      
     <Project/>
        
         
       <Footer/>
        
-      </div>
+      </main>
      
      
 
