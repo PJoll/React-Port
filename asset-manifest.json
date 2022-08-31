@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Port/static/css/main.073c9b0a.css",
+    "main.js": "/React-Port/static/js/main.171f70f3.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Port/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Github.jpg": "/React-Port/static/media/Github.c0dac705d9d5d1f8c6e1.jpg",
+    "static/media/Espresso-express.png": "/React-Port/static/media/Espresso-express.5e1ce9e085f2b07504f5.png",
+    "static/media/Moviedex.png": "/React-Port/static/media/Moviedex.838acb2f7f10037ec141.png",
+    "static/media/Rpg-game.png": "/React-Port/static/media/Rpg-game.2c80658526143a6fbf57.png",
+    "static/media/Password.png": "/React-Port/static/media/Password.2ae3caf1fa5162aef15a.png",
+    "index.html": "/React-Port/index.html",
+    "main.073c9b0a.css.map": "/React-Port/static/css/main.073c9b0a.css.map",
+    "main.171f70f3.js.map": "/React-Port/static/js/main.171f70f3.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Port/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.171f70f3.js"
+  ]
+}
