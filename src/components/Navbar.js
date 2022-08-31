@@ -17,12 +17,15 @@ export default function Navbar() {
           <a href="#about" className="mr-5 hover:text-white">
             About Me
           </a>
+         
+           <a href="#tech" className="mr-5 hover:text-white">
+            Technologies
+          </a>
+          
           <a href="#contact" className="mr-5 hover:text-white">
             Contact me
           </a>
-          <a href="#projects" className="mr-5 hover:text-white">
-            My Projects
-          </a>
+        
           
         
           
