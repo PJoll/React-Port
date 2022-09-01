@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my Portfolio that describes who i am the technologies i have used and some projects i have acheived.
+This is my Portfolio that describes who i am, the technologies i have used and some of the  projects i have completed.
 
 ## Table of Content
   - [Description](#description)
@@ -31,7 +31,7 @@ This is my Portfolio that describes who i am the technologies i have used and so
 
 ![screenshot1](./src/images/Screenshot%202022-08-31%20130458.png)
 
-- The deployed application link [Click me]()
+- The deployed application link [Click me](https://pjoll.github.io/React-Port/)
 
 
 
