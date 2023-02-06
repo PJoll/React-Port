@@ -1,4 +1,4 @@
-# Espresso-Express
+# Peter's Portfolio
 
 ![GitHub](https://img.shields.io/badge/license-MIT-orange)
 
