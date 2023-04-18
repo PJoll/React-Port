@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
-  faEnvelope,
+  faEvernote,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -23,10 +23,14 @@ export default function Footer()  {
               Linkedin<FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
           </li>
           <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/PJoll">Github<faGithub size={30}/></a>
+            <a href= "https://github.com/Pjoll"
+            className='flex justify-between items-center w-full text-gray-300'>
+            Github<FontAwesomeIcon icon={faGithub} size="2x"/></a>
           </li>
           <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/PJoll">Email<faEnvelope size={30}/></a>
+            <a href= "mailto:peterjolley456@gmail.com"
+            className='flex justify-between items-center w-full text-gray-300'
+            >Email<FontAwesomeIcon icon = {faEvernote} size="2x"/></a>
           </li>
           </ul>
               
