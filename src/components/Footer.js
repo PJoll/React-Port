@@ -17,17 +17,17 @@ export default function Footer()  {
 
                 <div className="text-center p-4">
                 <ul>
-          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[100px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a href="https://github.com/PJoll" 
             className='flex justify-between items-center w-full text-gray-300' >
               Linkedin<FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
           </li>
-          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[100px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a href= "https://github.com/Pjoll"
             className='flex justify-between items-center w-full text-gray-300'>
             Github<FontAwesomeIcon icon={faGithub} size="2x"/></a>
           </li>
-          <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[100px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a href= "mailto:peterjolley456@gmail.com"
             className='flex justify-between items-center w-full text-gray-300'
             >Email<FontAwesomeIcon icon = {faEvernote} size="2x"/></a>
