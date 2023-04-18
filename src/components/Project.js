@@ -1,10 +1,6 @@
 import React from "react";
 import { projects } from "../Projects";
 
-
-
-
-
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -15,8 +11,9 @@ export default function Projects() {
             My Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below are a few of the projects i have completed. if you want to see even more of my work please ckeckout my github ....
-            <a href = "https://github.com/PJoll"></a>
+            Below are a few of the projects i have completed. if you want to see
+            even more of my work please ckeckout my github ....
+            <a href="https://github.com/PJoll"></a>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,7 +21,8 @@ export default function Projects() {
             <a
               href={projects.link}
               key={projects.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
