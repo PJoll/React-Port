@@ -19,7 +19,7 @@ export default function Footer() {
     <ul className="flex justify-between">
       <li className="w-[100px] h-[60px] flex justify-between items-center hover:ml-[-10px] duration-300 bg-blue-600">
         <a
-          href="https://github.com/PJoll"
+          href="https://www.linkedin.com/in/peterjolleydevops/"
           className="flex justify-between items-center w-full text-gray-300"
         >
           Linkedin
