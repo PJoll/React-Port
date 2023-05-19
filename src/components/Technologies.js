@@ -1,5 +1,13 @@
 import React from "react";
 import { projects } from "../Projects";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faNode,
+  faReact
+ 
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Technologies() {
   return (
@@ -13,23 +21,23 @@ export default function Technologies() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Below are a few of the Technologies i have used and been exposed
             too.
-            <a href="https://github.com/PJoll"></a>
+            <a href="https://github.com/PJoll" alt=""></a>
           </p>
         </div>
         <div class="flex justify-center">
           <ul class="bg-white rounded-lg border border-red-400 w-96 text-gray-900">
             <li class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg">
-              React{" "}
+              React <FontAwesomeIcon icon={faReact} />
             </li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">HTML</li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">CSS</li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">HTML <FontAwesomeIcon icon={faHtml5}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">CSS <FontAwesomeIcon icon={faCss3Alt}/></li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">
-              JavaScript
+              JavaScript <FontAwesomeIcon icon={faJsSquare}/>
             </li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">Nodejs</li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">Tailwind</li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB</li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">SQL</li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">Nodejs <FontAwesomeIcon icon={faNode}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">Tailwind <FontAwesomeIcon icon={faHtml5}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB <FontAwesomeIcon icon={faHtml5}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">SQL <FontAwesomeIcon icon={faHtml5} /></li>
           </ul>
         </div>
       </div>
