@@ -20,3 +20,35 @@
     color: #f8f8f8;
     font-size: 40px;
 }
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    /* Example styles */
+    body {
+      font-size: 14px;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  /* Styles for tablet devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Example styles */
+    .content {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Styles for desktop devices */
+  @media (min-width: 1024px) {
+    /* Example styles */
+    .sidebar {
+      width: 30%;
+    }
+    .main-content {
+      width: 70%;
+    }
+  }
+  
