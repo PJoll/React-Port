@@ -1,7 +1,7 @@
 import React from "react";
 import { projects } from "../Projects";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -13,7 +13,7 @@ export default function Projects() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Below are a few of the projects i have completed. if you want to see
             even more of my work please ckeckout my github ....
-            <a href="https://github.com/PJoll"></a>
+            <a href="https://github.com/PJoll">Link to GitHub</a>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -46,3 +46,5 @@ export default function Projects() {
     </section>
   );
 }
+
+export default Projects;
