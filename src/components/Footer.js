@@ -6,7 +6,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function Footer() {
+const  Footer =() => {
   return (
     <>
       <div
@@ -51,3 +51,5 @@ export default function Footer() {
     </>
   );
 }
+
+export default Footer;

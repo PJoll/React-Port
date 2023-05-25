@@ -1,15 +1,16 @@
 import React from "react";
-import { projects } from "../Projects";
+// import { projects } from "../Projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faHtml5,
+import {
+  faHtml5,
   faCss3Alt,
   faJsSquare,
   faNode,
-  faReact
- 
+  faReact,
+  faDatabase,
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function Technologies() {
+const  Technologies = () => {
   return (
     <section id="tech" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -21,7 +22,7 @@ export default function Technologies() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Below are a few of the Technologies i have used and been exposed
             too.
-            <a href="https://github.com/PJoll" alt=""></a>
+            <a href="https://github.com/PJoll" alt="Link to my GitHub repository">Visit my GitHub repository</a>
           </p>
         </div>
         <div class="flex justify-center">
@@ -36,7 +37,7 @@ export default function Technologies() {
             </li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">Nodejs <FontAwesomeIcon icon={faNode}/></li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">Tailwind <FontAwesomeIcon icon={faHtml5}/></li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB <FontAwesomeIcon icon={faHtml5}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB <FontAwesomeIcon icon={faDatabase}/></li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">SQL <FontAwesomeIcon icon={faHtml5} /></li>
           </ul>
         </div>
@@ -44,3 +45,5 @@ export default function Technologies() {
     </section>
   );
 }
+
+export default Technologies;
