@@ -7,7 +7,7 @@ import {
   faJsSquare,
   faNode,
   faReact,
-  faDatabase,
+  faDeskpro,
 } from "@fortawesome/free-brands-svg-icons";
 
 const  Technologies = () => {
@@ -37,7 +37,7 @@ const  Technologies = () => {
             </li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">Nodejs <FontAwesomeIcon icon={faNode}/></li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">Tailwind <FontAwesomeIcon icon={faHtml5}/></li>
-            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB <FontAwesomeIcon icon={faDatabase}/></li>
+            <li class="px-6 py-2 border-b border-gray-200 w-full">MongoDB <FontAwesomeIcon icon={faDeskpro}/></li>
             <li class="px-6 py-2 border-b border-gray-200 w-full">SQL <FontAwesomeIcon icon={faHtml5} /></li>
           </ul>
         </div>
